@@ -1,0 +1,72 @@
+2020-04-18 18:50:58.7313 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:50:58.7982 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:50:58.9178 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.5.2.1050. Product version: 1.5.2.
+2020-04-18 18:50:58.9346 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-04-18 18:50:58.9346 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:50:58.9604 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:50:59.0677 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.8.1.1038. Product version: 4.8.1.
+2020-04-18 18:50:59.0823 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-04-18 18:50:59.0955 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:50:59.1078 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:50:59.2338 Info NLog.Web.AspNetCore.Targets.Gelf, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null. File version: 1.2.0.0. Product version: 1.2.0.
+2020-04-18 18:50:59.2338 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll succeeded!
+2020-04-18 18:50:59.2838 Info Message Template Auto Format enabled
+2020-04-18 18:50:59.2978 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-18 18:50:59.2978 Info Loading assembly: NLog.Web.AspNetCore.Targets.Gelf
+2020-04-18 18:50:59.3947 Info Adding target AsyncTargetWrapper(Name=console)
+2020-04-18 18:50:59.4295 Info Adding target AsyncTargetWrapper(Name=gelfudp)
+2020-04-18 18:50:59.4551 Info Found 22 configuration items
+2020-04-18 18:52:08.9106 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:52:08.9264 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:52:08.9427 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.5.2.1050. Product version: 1.5.2.
+2020-04-18 18:52:08.9571 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-04-18 18:52:08.9784 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:52:08.9897 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:52:09.0004 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.8.1.1038. Product version: 4.8.1.
+2020-04-18 18:52:09.0123 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-04-18 18:52:09.0123 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:52:09.0318 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:52:09.0446 Info NLog.Web.AspNetCore.Targets.Gelf, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null. File version: 1.2.0.0. Product version: 1.2.0.
+2020-04-18 18:52:09.0446 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll succeeded!
+2020-04-18 18:52:09.0659 Info Message Template Auto Format enabled
+2020-04-18 18:52:09.0909 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-18 18:52:09.0909 Info Loading assembly: NLog.Web.AspNetCore.Targets.Gelf
+2020-04-18 18:52:09.1923 Info Adding target AsyncTargetWrapper(Name=console)
+2020-04-18 18:52:09.2174 Info Adding target AsyncTargetWrapper(Name=gelfudp)
+2020-04-18 18:52:09.2522 Info Found 22 configuration items
+2020-04-18 18:53:35.1213 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:53:35.1496 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 18:53:35.2282 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.5.2.1050. Product version: 1.5.2.
+2020-04-18 18:53:35.2495 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-04-18 18:53:35.2869 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:53:35.3031 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 18:53:35.3474 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.8.1.1038. Product version: 4.8.1.
+2020-04-18 18:53:35.3620 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-04-18 18:53:35.3719 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:53:35.3719 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 18:53:35.3955 Info NLog.Web.AspNetCore.Targets.Gelf, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null. File version: 1.2.0.0. Product version: 1.2.0.
+2020-04-18 18:53:35.4065 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll succeeded!
+2020-04-18 18:53:35.4199 Info Message Template Auto Format enabled
+2020-04-18 18:53:35.4417 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-18 18:53:35.4538 Info Loading assembly: NLog.Web.AspNetCore.Targets.Gelf
+2020-04-18 18:53:35.5445 Info Adding target AsyncTargetWrapper(Name=console)
+2020-04-18 18:53:35.5683 Info Adding target AsyncTargetWrapper(Name=gelfudp)
+2020-04-18 18:53:35.6082 Info Found 22 configuration items
+2020-04-18 19:27:48.5679 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 19:27:48.6063 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-04-18 19:27:48.6287 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.5.2.1050. Product version: 1.5.2.
+2020-04-18 19:27:48.6446 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-04-18 19:27:48.6622 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 19:27:48.6805 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
+2020-04-18 19:27:48.6991 Info NLog.Web.AspNetCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.8.1.1038. Product version: 4.8.1.
+2020-04-18 19:27:48.7158 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll succeeded!
+2020-04-18 19:27:48.7158 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 19:27:48.7413 Info Loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll
+2020-04-18 19:27:48.7531 Info NLog.Web.AspNetCore.Targets.Gelf, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null. File version: 1.2.0.0. Product version: 1.2.0.
+2020-04-18 19:27:48.7665 Info Auto loading assembly file: C:\Users\Lenovo\source\repos\BlazorApp-Covid19\CovidApp\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.Targets.Gelf.dll succeeded!
+2020-04-18 19:27:48.7793 Info Message Template Auto Format enabled
+2020-04-18 19:27:48.8001 Info Loading assembly: NLog.Web.AspNetCore
+2020-04-18 19:27:48.8106 Info Loading assembly: NLog.Web.AspNetCore.Targets.Gelf
+2020-04-18 19:27:48.8923 Info Adding target AsyncTargetWrapper(Name=console)
+2020-04-18 19:27:48.9137 Info Adding target AsyncTargetWrapper(Name=gelfudp)
+2020-04-18 19:27:48.9445 Info Found 22 configuration items

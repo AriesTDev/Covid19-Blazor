@@ -1,0 +1,17 @@
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\bin\Debug\netcoreapp2.2\Logging.deps.json
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\bin\Debug\netcoreapp2.2\Logging.dll
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\bin\Debug\netcoreapp2.2\Logging.pdb
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.csproj.CoreCompileInputs.cache
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.AssemblyInfoInputs.cache
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.AssemblyInfo.cs
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.dll
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.pdb
+C:\SHANG\GITRepo\pst-cashierPage-web\src\Logging\obj\Debug\netcoreapp2.2\Logging.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\bin\Debug\netcoreapp2.2\Logging.deps.json
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\bin\Debug\netcoreapp2.2\Logging.dll
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\bin\Debug\netcoreapp2.2\Logging.pdb
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\obj\Debug\netcoreapp2.2\Logging.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\obj\Debug\netcoreapp2.2\Logging.AssemblyInfoInputs.cache
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\obj\Debug\netcoreapp2.2\Logging.AssemblyInfo.cs
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\obj\Debug\netcoreapp2.2\Logging.dll
+C:\Users\Lenovo\source\repos\BlazorApp-Covid19\Logging\obj\Debug\netcoreapp2.2\Logging.pdb

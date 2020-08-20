@@ -1,0 +1,200 @@
+﻿@page "/"
+
+@using Microsoft.Extensions.Logging
+@using Services.Interfaces
+@using Services.Models
+@inject ICovidService covidService
+@inject ILogger<Index> logger
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1 class="m-0 text-dark">Global Status</h1>
+            </div><!-- /.col -->
+            @*<div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">Dashboard v1</li>
+                    </ol>
+                </div>*@<!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+</div>
+<!-- /.content-header -->
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+
+
+        @if (globalresult == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h5 class="mb-2">As of @TimeStampToDateTime(globalresult.updated).ToString("MMM dd, yyyy hh:mm:ss")</h5>
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>@globalresult.cases</h3>
+
+                            <p>Total Cases</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-gradient-red">
+                        <div class="inner">
+                            <h3>@globalresult.deaths<sup style="font-size: 20px"></sup></h3>
+
+                            <p>Death/s</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-android-remove-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-lightgreen">
+                        <div class="inner">
+                            <h3>@globalresult.recovered</h3>
+
+                            <p>Recovered</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-green">
+                        <div class="inner">
+                            <h3>@globalresult.active</h3>
+
+                            <p>Active</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>@globalresult.critical</h3>
+
+                            <p>Critical</p>
+                        </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./col -->
+            </div>
+            <!-- /.row -->
+
+            <h5 class="mb-2">Today's Update</h5>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box">
+                        <span class="info-box-icon bg-info"><i class="far fa-envelope"></i></span>
+
+                        <div class="info-box-content">
+                            <span class="info-box-text">Cases</span>
+                            <span class="info-box-number">@globalresult.todayCases</span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+                <!-- /.col -->
+                <div class="col-md-3 col-sm-6 col-12">
+                    <div class="info-box">
+                        <span class="info-box-icon bg-success"><i class="far fa-flag"></i></span>
+
+                        <div class="info-box-content">
+                            <span class="info-box-text">Deaths</span>
+                            <span class="info-box-number">@globalresult.todayDeaths</span>
+                        </div>
+                        <!-- /.info-box-content -->
+                    </div>
+                    <!-- /.info-box -->
+                </div>
+
+            </div>
+            <!-- /.row -->
+
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Continental Status</h1>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+
+            <!-- Small boxes (Stat box) -->
+            <div class="row">
+                @foreach (var continent in continentresult)
+                {
+                    <div class="col-lg-3 col-6">
+                        <!-- small box -->
+                        <div class="small-box bg-lightblue">
+                            <div class="inner">
+                                <h3>@continent.continent</h3>
+                                <p>Cases: @continent.cases</p>
+                                <p>Deaths: @continent.deaths</p>
+                                <p>Recovered: @continent.recovered</p>
+                                <p>Critical: @continent.critical</p>
+                            </div>
+                            <div class="icon">
+                                <i class="ion ion-person-add"></i>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        }
+    </div>
+</section>
+
+
+@code {
+    private GlobalResponse globalresult;
+    private IEnumerable<ContinentResponse> continentresult;
+    private IEnumerable<CountryResponse> countryresult;
+    private ICovidService _covid;
+    //private readonly IMapper _mapper;
+
+    protected override async Task OnInitializedAsync()
+    {
+        _covid = covidService;
+        globalresult = await _covid.GetGlobalStatus().ConfigureAwait(false);
+        continentresult = await _covid.GetContinentStatus().ConfigureAwait(false);
+        countryresult = await _covid.GetCountryStatus().ConfigureAwait(false);
+
+    }
+
+    public static DateTime TimeStampToDateTime(long unixTimeStamp)
+    {
+        // Unix timestamp is seconds past epoch
+        long time = unixTimeStamp; // Unix time in microseconds.
+        time /= 1000; // Divide by 1,000 because we need milliseconds, not microseconds.
+        return new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc).AddSeconds(time);
+    }
+
+}
